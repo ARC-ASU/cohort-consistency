@@ -1,8 +1,8 @@
 # Learning Verifiable Reasoning Programs through Cohort Consistency
 
 GRPO training with the cohort reward from the AACL-IJCNLP 2026 paper *Learning Verifiable Reasoning
-Programs through Cohort Consistency* (Xiao Ye, Shaswat Shrivastava, Zhaonan Li, Jacob Dineen, Shijie Lu,
-Avneet Ahuja, Ming Shen, Zhikun Xu, Ben Zhou).
+Programs through Cohort Consistency* (Xiao Ye, Zhaonan Li, Jacob Dineen, Zhikun Xu, Shijie Lu, Ming Shen,
+Shaswat Shrivastava, Avneet Ahuja, Ben Zhou).
 
 The policy writes one short executable program `def answer(...) -> int` for a masked abstraction of a
 question. The program may only call an atomic `retrieve(question, type)` plus simple control flow, and it is
@@ -107,8 +107,8 @@ logging in `verl/trainer/ppo/ray_trainer.py`.
 ```bibtex
 @inproceedings{ye2026cohort,
   title     = {Learning Verifiable Reasoning Programs through Cohort Consistency},
-  author    = {Ye, Xiao and Shrivastava, Shaswat and Li, Zhaonan and Dineen, Jacob and Lu, Shijie and
-               Ahuja, Avneet and Shen, Ming and Xu, Zhikun and Zhou, Ben},
+  author    = {Ye, Xiao and Li, Zhaonan and Dineen, Jacob and Xu, Zhikun and Lu, Shijie and Shen, Ming and
+               Shrivastava, Shaswat and Ahuja, Avneet and Zhou, Ben},
   booktitle = {Proceedings of the Asia-Pacific Chapter of the Association for Computational Linguistics (AACL-IJCNLP)},
   year      = {2026}
 }
